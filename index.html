@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/sunflower.png" type="image/x-icon">
+
+    <!--============== REMIXICONS ==============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== Icons ===============-->
+    <script src="https://kit.fontawesome.com/590c74808b.js" crossorigin="anonymous"></script>
+
+    <title>Hagar's Portfolio</title>
+</head>
+
+<body>
+    <!--=============== About ===============-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li class="active"><a href="#Home">Home</a>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#pro">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <section id="Home">
+            <div class="container2">
+                <div class="header-text">
+                    <p>Undergraduate Software Engineer</p>
+                    <h1>Hi, I'm <span>Hagar Tarek</span> <br> from Egypt</h1>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sunflower.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am an undergraduate student studying in the Faculty of Computer Science at Alexandria
+                        University,
+                        specializing in Artificial Intelligence. Passionate about technology,
+                        I am actively involved in expanding my skills across various industries.
+                        Currently, I am dedicating myself to mastering Machine Learning and Deep Learning techniques,
+                        aiming to leverage their potential in solving complex problems.
+                        I am actively working on myself in the web development industry,
+                        striving to enhance my skills and stay updated with the latest trends and technologies.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')"> Education </p>
+                        <p class="tab-links" onclick="opentab('Courses')"> Courses </p>
+                        <p class="tab-links" onclick="opentab('Civil')"> Civil Work </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span> Faculty of Computers and Data Science, Alexandria University
+                                </span><br><span>Intelligent System Department</span><br><span>CGPA:
+                                </span>3.7<br><span>Expected Graduation Year:</span>2025</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Courses">
+                        <ul>
+                            <li><span> Internet of things (IoT) </span><br> MyCommunication </li>
+                            <li><span> Deep leaning specialization </span><br> Coursera - DeepLearning.AI
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Civil">
+                        <ul>
+                            <li><span> Team leader of the Eco club in ICS-Abu Dhabi </span></li>
+                            <li><span> Event Organizer at ICS-Abu Dhabi </span></li>
+                            <li><span> Technical Volunteer at IEEE Computer Society </span></li>
+                            <li><span> HR at El Coder FCDS </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== Skills ===============-->
+    <section id="Skills">
+        <h1 class="sub-title">Technical Skills</h1>
+        <div class="container3">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="images/HTML.png" class="skill-icon">
+                    </div>
+                    <h3> HTML </h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="images/CSS.png" class="skill-icon">
+                    </div>
+                    <h3> CSS </h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="images/JS.png" class="skill-icon">
+                    </div>
+                    <h3> JavaScript </h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="images/java.png" class="skill-icon">
+                    </div>
+                    <h3> Java </h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="images/Python.png" class="skill-icon">
+                    </div>
+                    <h3> Python </h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="images/SQL.png" class="skill-icon">
+                    </div>
+                    <h3> MySql </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== Services ===============-->
+    <section id="Services">
+        <div class="container2">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Dvelopment </h2>
+                    <p>Crafting responsive and visually captiviating websites tailored to meet your business needs.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2> Deep Learning </h2>
+                    <p>Delivering advanced deep learning capabilities to revolutionize data analysis, predictive
+                        modeling, and automation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== Projects ===============-->
+
+    <section id="pro">
+        <div class="container2">
+            <h1 class="sub-title"> My Projects </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/flowerclass.jpg">
+                    <div class="layer">
+                        <h3> Flower Classification </h3>
+                        <p>Employ Convolutional Neural Networks (CNN) to classify 104 distinct types of flowers using
+                            the tensorflow framework.</p>
+                        <a href="https://github.com/Hagar253/Flower-Classification"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/violence.jpg">
+                    <div class="layer">
+                        <h3> Violence Detection System </h3>
+                        <p>Implement a CNN+LSTM model that detects any violent content and flags it.</p>
+                        <a href="https://github.com/Hagar253/Violence-Detection"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3> Personal Portfolio </h3>
+                        <p> A personal portfolio to showcase my skills, achievements, and experiences. </p>
+                        <a href="https://github.com/Hagar253/Personal-Portfolio"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sick.jpg">
+                    <div class="layer">
+                        <h3> Patient's Sickness Prediction </h3>
+                        <p> Implement Kmeans to predict patient's sickness; apply PCA for dimensionality reduction and
+                            T-SNE for high-dimensional data visualization. </p>
+                        <a href="https://github.com/Hagar253/Patient-s-Sickness-Prediction-System"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More </a>
+        </div>
+    </section>
+
+    <!--=============== Contact ===============-->
+
+    <section id="Contact">
+        <div class="container2">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p><i class="fa-solid fa-square-envelope"></i> ahagarshaheen2004@gmail.com </p>
+                    <p><i class="fa-solid fa-square-phone"></i> +20 101 4254354 </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/JvbEheHiYm8WSH1p/?mibextid=QwDbR1"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=1u07kvqp0t3fj&utm_content=2ua4t3q"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/hagar-shaheen"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Hagar253"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/Hagar Tarek Abdelfatah.pdf" download class="btn btn2"> Download CV </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Send </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © Hagar. Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </section>
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var container = document.getElementsByClassName('container');
+            var containerPosition = container.getBoundingClientRect().top;
+            var windowHeight = window.innerHeight;
+
+            if (containerPosition - windowHeight <= 0) {
+                container.classList.add('colored');
+            }
+        });
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0"; // whenever right is zero, it will be visible 
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"; //invisible when right is -200
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyPUca84452k89TeG4OT8zDZM4pwu7nJAynXdnvIRac4MSc7K64A8uLLMiqaoprplEQOg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000) //Message removed after 5 seconds
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Cache selectors
+        var lastId,
+            topMenu = $("#sidemenu"),
+            topMenuHeight = topMenu.outerHeight() + 1,
+            // All list items
+            menuItems = topMenu.find("a"),
+            // Anchors corresponding to menu items
+            scrollItems = menuItems.map(function () {
+                var item = $($(this).attr("href"));
+                if (item.length) { return item; }
+            });
+
+        // Bind to scroll
+        $(window).scroll(function () {
+            // Get container scroll position
+            var fromTop = $(this).scrollTop() + topMenuHeight;
+
+            // Get id of current scroll item
+            var cur = scrollItems.map(function () {
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+            // Get the id of the current element
+            cur = cur[cur.length - 1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+                // Remove active class from all menu items
+                menuItems.removeClass("active");
+                // Add active class to the current menu item
+                $('[href="#' + id + '"]').addClass("active");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
