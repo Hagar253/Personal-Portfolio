@@ -613,6 +613,11 @@ nav .fa-solid {
     .copyright {
         font-size: 14px;
     }
+
+    .work img {
+        height: 200px;
+        width: 340px;
+    }
 }
 
 #msg {
