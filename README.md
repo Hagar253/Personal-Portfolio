@@ -23,5 +23,5 @@ In the "Projects" section, you'll discover a collection of my projects, each wit
 The "Contact" section contains all the necessary contact information. Additionally, you can use the provided form to send me a message, which I'll receive via Google Sheets.
 
 Thank you for visiting my portfolio!
-Here is the link to the website: https://hagar-portfolio.netlify.app/
+Here is the link to the website: https://hagarportfolio.netlify.app/
 
