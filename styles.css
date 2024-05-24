@@ -616,7 +616,7 @@ nav .fa-solid {
 
     .work img {
         height: 200px;
-        width: 340px;
+        width: 100%;
     }
 }
 
